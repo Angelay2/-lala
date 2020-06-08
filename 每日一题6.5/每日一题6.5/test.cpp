@@ -25,7 +25,7 @@ public:
 void fun(B0 ptr){// 普通函数
 	ptr.display(); // 打印了三个"B0::dispaly0"
 }
-int main(){// 主函数
+int main8(){// 主函数
 	B0 b0;// 声明基类对象和指针
 	B1 b1;// 声明派生类对象
 	D1 d1;// 声明派生类对象
