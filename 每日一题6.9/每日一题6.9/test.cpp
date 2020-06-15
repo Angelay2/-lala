@@ -19,7 +19,7 @@ public:
 	}
 };
 int cla::n = 0;
-int main(){
+int main3(){
 	cla* p = new cla;
 	delete p;
 	cout << "n = " << cla::get_n() << endl;
