@@ -68,7 +68,7 @@ int gcd(int a, int b){
 int main(){ 
 	int a, b; 
 	while(cin >> a >> b){ 
-		cout << a*b / gcd(a, b) << endl; // 两数之积/除尽的上一步余数 = 
+		cout << a*b / gcd(a, b) << endl; // 两数之积/除尽的上一步余数
 	}
 	system("pause");
 	return 0; 
