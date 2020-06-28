@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
  
-int main(){
+int main8(){
 	char* ptr;
 	char myString[] = "abcdefg";
 	ptr = myString;
@@ -56,7 +56,7 @@ int main5(){
 	system("pause");
 	return 0;
 }
-int main3(){
+int main(){
 	long long a = 1, b = 2, c = 3;
 	printf("%d %d %d\n", a, b, c); // 1 0 2
 	system("pause");
