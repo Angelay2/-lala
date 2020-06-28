@@ -10,17 +10,17 @@ struct A{
 	int a;
 	short b;
 	int c;
-	char d;
+	char d;//13
 };
 struct B{
 	int a;
 	short b;
 	char c;
-	int d;
+	int d;//12
 };
 int main(){
-	printf("%d\n", sizeof(A));
-	printf("%d\n", sizeof(B));
+	printf("%d\n", sizeof(A));// 16
+	printf("%d\n", sizeof(B));// 12
 
 	system("pause");
 	return 0;
@@ -90,7 +90,7 @@ int foo(int n){
 		return 2 * foo(n - 1) + foo(n - 2);
 }
 int main3(){
-	cout << foo(5);
+	cout << foo(5);//29
 
 	system("pause");
 	return 0;
@@ -107,7 +107,7 @@ int main2(){
 	case 2:cout << "third";
 	}
 
-	system("pause");
+	system("pause");// hellothird
 	return 0;
 }
 #define N 5
@@ -133,10 +133,10 @@ void run(int n){
 		count++;
 		return;
 	}
-	for (i = n; i < N; i++){
-		swap(n, i);
+	for (i = n; i < N; i++){//
+		swap(n, i);//
 		run(n + 1);
-		swap(n, i);
+		swap(n, i);//3¸ön
 	}
 }
 
