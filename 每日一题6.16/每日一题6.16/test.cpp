@@ -5,7 +5,7 @@
 #pragma warning(disable:4996)
 using namespace std;
 
-int main(){
+int main6(){
 	char ccString1[] = "Is Page Fault??";
 	char ccString2[] = "No Page Fault??";
 	strcpy(ccString1, "No");
