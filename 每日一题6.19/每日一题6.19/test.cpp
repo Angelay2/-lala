@@ -26,7 +26,7 @@ int main6(){
 	int a[] = { 1, 2, 3, 4, 5 };
 	int* p[] = { a, a + 1, a + 2, a + 3 };
 	int **q = p;
-	printf("%d\n", *(p[0] + 1) + **(q + 2));// 5
+	printf("%d\n", *(p[0] + 1) + **(q + 2));// 2+3 = 5
 
 	system("pause");
 	return 0;
@@ -56,7 +56,7 @@ int main5(){
 	system("pause");
 	return 0;
 }
-int main(){
+int main3(){
 	long long a = 1, b = 2, c = 3;
 	printf("%d %d %d\n", a, b, c); // 1 0 2
 	system("pause");
