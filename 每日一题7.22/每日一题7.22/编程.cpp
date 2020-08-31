@@ -29,7 +29,7 @@ int main() {
 		for (map<char, int>::iterator it = resdata.begin(); it != resdata.end(); it++) { 
 			// 只要有一种球数目不满足条件, 就用 sta 标记为 false 
 			// 反之, 必须所有种类的球都能够满足条件, 才能保持为 true
-			if (strdata[it->first] < strdata[it->second]) {
+			if (strdata[it->first] < it->second) {
 				sta = false; 
 				break;
 			} 
